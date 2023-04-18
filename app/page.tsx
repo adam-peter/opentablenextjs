@@ -1,13 +1,13 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+/* eslint-disable react/no-unescaped-entities */
+import Image from "next/image";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-
   return (
-    <main className="">
-      <h1>Hello my friends!</h1>
+    <main>
+      
     </main>
-  )
+  );
 }
